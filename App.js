@@ -1,10 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from "react";
 import { SafeAreaView, Text } from "react-native";
 import { getFontFamily } from "./assets/fonts/helper";
@@ -16,7 +9,7 @@ const App = () => {
         fontSize: 70,
         fontFamily: getFontFamily('Inter', '900')
       }}>
-      Hello World!
+      Hello World! tnc desgraca do inferno
     </Text>
     </SafeAreaView >
   )
