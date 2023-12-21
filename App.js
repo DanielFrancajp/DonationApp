@@ -1,18 +1,12 @@
-import React from "react";
-import { SafeAreaView, Text } from "react-native";
-import { getFontFamily } from "./assets/fonts/helper";
-
+import React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
+import MainNavigation from './navigation/MainNavigation';
 const App = () => {
   return (
-    <SafeAreaView>
-      <Text style={{
-        fontSize: 70,
-        fontFamily: getFontFamily('Inter', '900')
-      }}>
-      Hello World! tnc desgraca do inferno
-    </Text>
-    </SafeAreaView >
-  )
-}
+    <NavigationContainer>
+      <MainNavigation />
+    </NavigationContainer>
+  );
+};
 
 export default App;
