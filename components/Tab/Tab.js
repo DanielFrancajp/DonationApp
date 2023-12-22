@@ -4,13 +4,10 @@ import PropTypes from 'prop-types';
 
 import style from './style';
 import {horizontalScale} from '../../assets/styles/scaling';
-
 const Tab = props => {
-
   const [width, setWidth] = useState(0);
   const textRef = useRef(null);
   const paddingHorizontal = 33;
-  
   const tabWidth = {
     width: horizontalScale(paddingHorizontal * 2 + width),
   };
